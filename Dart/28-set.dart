@@ -1,14 +1,13 @@
 void main() {
-  Set numbers = {10, 20, 30, 40, 30, 50, 40};
+  // Create a Set of unique integers.
+  Set<int> numbers = {10, 20, 30, 40, 30, 50, 40};
 
-  print(numbers);
+  print('Numbers: $numbers');
 
-  print(numbers.first);
-  print(numbers.last);
-  print(numbers.isEmpty);
-  print(numbers.isNotEmpty);
-  print(numbers.length);
-
-
-  
+  // Access Set properties.
+  print('First element: ${numbers.first}');
+  print('Last element: ${numbers.last}');
+  print('Is empty: ${numbers.isEmpty}');
+  print('Is not empty: ${numbers.isNotEmpty}');
+  print('Length: ${numbers.length}');
 }
